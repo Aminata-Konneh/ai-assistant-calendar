@@ -1,1 +1,1 @@
-# ai-assistant-calendar
+# Ai Assistant Calendar
