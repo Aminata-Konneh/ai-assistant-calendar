@@ -1,0 +1,29 @@
+{
+  "name": "ai-assistant-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aminata-Konneh/ai-assistant-calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aminata-Konneh/ai-assistant-calendar/issues"
+  },
+  "homepage": "https://github.com/Aminata-Konneh/ai-assistant-calendar#readme",
+  "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@fullcalendar/timegrid": "^6.1.20",
+    "@supabase/supabase-js": "^2.108.1",
+    "react-native": "^0.86.0",
+    "react-native-dotenv": "^3.4.11"
+  }
+}
