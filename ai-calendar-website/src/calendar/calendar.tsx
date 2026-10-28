@@ -216,7 +216,7 @@ function Calendar() {
                 className="modal-content"
             >
                 <div className="modal-header">
-                    <h2>{newEvent.id ? "Edit Event": "Add New Event"}</h2>
+                    <h2 className="title">{newEvent.id ? "Edit Event": "Add New Event"}</h2>
                     <button className="modal-close-button" onClick={closeModal}>x</button>
                 </div>
                 <div className="modal-body">

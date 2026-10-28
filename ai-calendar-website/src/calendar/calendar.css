@@ -23,10 +23,6 @@
     background-color:rgb(167, 92, 241)
 }
 
-/* .fc .fc-toolbar-title {
-    font-family: "Garamond", serif;
-} */
-
 .add-event-button {
     background: #5fb8d6;
     color: white;
@@ -46,6 +42,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    border-bottom: 4px solid #f397e7;
+}
+
+.modal-header .title {
+    color: black;
+    font-size: 35px;
+    font-family: Serif, Garamond;
+    font-weight: 800;
 }
 .modal-overlay {
     position: fixed;
@@ -67,7 +74,8 @@
     border-radius: 15px;
     position: relative;
     max-width: 500px;
-    height: 475px;
+    height: 530px;
+    padding: 15px;
 }
 
 .modal-close-button {
@@ -76,6 +84,11 @@
     border: none;
     padding: 4px 6px;
     border-radius: 5px;
+    font-size: 20px;
+}
+
+.modal-close-button:hover {
+    background-color: #571b1b;
 }
 
 .modal-body {
@@ -89,14 +102,14 @@
     display: block;
     color: #374151;
     font-weight: 800;
-
+    font-family: Serif, Garamond;
 }
 .modal-body .modal-group input,
 .modal-body .modal-group textarea {
     border-radius: 6px;
     border: 2px;
-    font-size: 12px;
-    font-family: inherit;
+    font-size: 15px;
+    font-family: Serif, Garamond;
     width: 100%;
     padding: 5px; 
     transition: border-color 0.2s;

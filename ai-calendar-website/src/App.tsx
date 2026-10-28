@@ -3,7 +3,7 @@ import './App.css'
 import { db } from './database/db';
 // import Signup from './components/signup';
 import Calendar from './calendar/calendar';
-// import Modal from 'react';
+import AI_assistant from './ai-modal/ai-modal';
 
 // Modal.setAppElement('#root')
 
@@ -85,6 +85,7 @@ function App() {
   return (
     <div>
         <Calendar/>
+        <AI_assistant/>
     </div>
   )
 }
